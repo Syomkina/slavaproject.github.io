@@ -1,0 +1,95 @@
+.heading {height: 700px;
+        width: auto;
+        background-image: url(./heading.png);
+        background-repeat:no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        }
+
+.slogan {display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(41, 23, 0);
+        height: 50px;}
+
+        .slogan-text {color: white;
+                        font-family: fantasy;
+                        font-size: 50px;}
+
+.noDot {list-style-type: none;
+        outline: none;}
+
+.topmenu {width: auto;
+        display: flex;
+        justify-content: space-between;}
+
+.column {display: flex;
+        flex-direction: column;}
+
+        .container {display: flex;
+                        align-items: center;
+                        height: 1700px;
+                        min-width: inherit;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        background: rgb(180, 180, 180);}
+
+        .one ul {background: #ECDAD6;}
+              .one ul a {color: #695753;}
+
+                .game-container {width: 1500px;
+                                background-color: #fff;
+                                border-radius: 30px;}
+
+                .game-container-modal {width: 1080px;
+                                        background-color: #fff;
+                                        border-radius: 30px;}
+
+                                        .column-modal {display: flex;
+                                                        flex-wrap: wrap;}
+
+                .description-container {display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-around;
+                                        flex-wrap: wrap;
+                                        height: 350px;
+                                        width: 850px;}
+
+
+                        .description {font-size: 20px;}
+
+                        .description-container1 {display: flex;
+                                                justify-content: space-around;
+                                                width: 550px;}
+
+                        .image {border: solid 7px coral;
+                                border-radius: 10px;
+                                height: 337px;
+                                width: 600px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;}
+
+                        .close-button {font-size: 30px;}
+
+
+.ending {background-color: rgb(143, 143, 143);
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+        .addGame {height: 40px;}
+
+        .main {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(223, 189, 189, 0.5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
